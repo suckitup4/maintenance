@@ -1,0 +1,8 @@
+# applications
+/forum/*                                      https://forum-proxy.freecodecamp.org/forum/:splat 200
+/news                                         https://news-proxy.freecodecamp.org/news/ 200
+/news/*                                       https://news-proxy.freecodecamp.org/news/:splat 200
+
+# main
+
+/*                                            /index.html 503
